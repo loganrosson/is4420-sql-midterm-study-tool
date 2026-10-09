@@ -11,9 +11,11 @@ A database-course study app with ~170 practice questions and a built-in **SQL La
 - Study reference (SELECT pattern, WHERE vs HAVING, LIKE, aggregates, keys), SQL syntax highlighting, light/dark mode
 
 ## Screenshots
-| SQL Lab: stepping through GROUP BY | Feedback on a wrong answer |
-|---|---|
-| ![SQL Lab](docs/sqllab.png) | ![Feedback](docs/feedback.png) |
+**SQL Lab:** stepping through a query clause by clause (here: the rows right after GROUP BY)
+![SQL Lab](docs/sqllab.png)
+
+**Feedback on a wrong answer**
+![Feedback](docs/feedback.png)
 
 ## How the step-through works
 SQL is written in one order but executed in another. The lab replays a query in **logical execution order** and shows the intermediate rows at each stage:
